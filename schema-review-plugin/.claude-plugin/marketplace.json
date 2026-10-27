@@ -1,0 +1,14 @@
+{
+  "name": "rdaas-tools",
+  "description": "Claude Code plugins for working with the Enumeration Manager (RDaaS) app.",
+  "owner": {
+    "name": "Kalpananand Sharma"
+  },
+  "plugins": [
+    {
+      "name": "schema-review",
+      "source": "./",
+      "description": "Review JSON Schemas against the Enumeration Manager's enumerations."
+    }
+  ]
+}

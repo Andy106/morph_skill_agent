@@ -1,0 +1,18 @@
+{
+  "name": "schema-review",
+  "version": "0.1.0",
+  "description": "Review a JSON Schema's enum/const attributes against the enumerations in an Enumeration Manager app: confirm matches, propose schema changes for similar ones, propose new enumerations for the rest, and write output.md.",
+  "author": {
+    "name": "Kalpananand Sharma"
+  },
+  "keywords": ["json-schema", "enumerations", "review"],
+  "userConfig": {
+    "enum_api_url": {
+      "type": "string",
+      "title": "Enumeration Manager URL",
+      "description": "Base URL of the Enumeration Manager API (the app whose enumerations schemas are checked against).",
+      "default": "http://127.0.0.1:8000",
+      "required": true
+    }
+  }
+}

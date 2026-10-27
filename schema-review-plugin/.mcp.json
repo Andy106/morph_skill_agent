@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "schema-review": {
+      "command": "uv",
+      "args": ["run", "--quiet", "--no-dev", "--project", "${CLAUDE_PLUGIN_ROOT}/server", "schema-review-mcp"],
+      "env": {
+        "ENUM_API_URL": "${user_config.enum_api_url}"
+      }
+    }
+  }
+}

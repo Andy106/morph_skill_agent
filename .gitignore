@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+rdaas_app/backend/enums.db
+.env
+node_modules/
+dist/
